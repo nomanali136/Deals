@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Deals.item>
+﻿@model IEnumerable<Deals.Models.item>
 
 @{
     ViewBag.Title = "Index";
@@ -15,9 +15,6 @@
             @Html.DisplayNameFor(model => model.pname)
         </th>
         <th></th>
-    
-    <th></th>
-    
     </tr>
 
 @foreach (var item in Model) {

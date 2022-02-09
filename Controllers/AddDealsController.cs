@@ -6,13 +6,13 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using Deals;
+using Deals.Models;
 
 namespace Deals.Controllers
 {
     public class AddDealsController : Controller
     {
-        private POSEntities db = new POSEntities();
+        private POSEntities1 db = new POSEntities1();
 
         // GET: AddDeals
         public ActionResult Index()
